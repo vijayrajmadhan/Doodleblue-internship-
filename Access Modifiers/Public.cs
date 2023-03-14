@@ -14,7 +14,7 @@ class program
 {
       static void Main(string[] args)
 		{
-			 obj=new Public();
+			Public obj=new Public();
 			Console.WriteLine(obj.model);
 		}
 }
