@@ -1,0 +1,4 @@
+when a class have more than one base class,if suppose the base classes have some method than the derived class have a confusion to call the method
+this is called a collision or ambiguity problem
+using key word at a time we can access one class property
+due to these reson c# does not support multiple inheritance
