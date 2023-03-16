@@ -2,7 +2,9 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace CSharpShell;
+namespace CSharpShell
+
+{
 
 public class Private
 {         
@@ -13,6 +15,8 @@ public class Private
 			 Private obj=new Private();
 			Console.WriteLine(obj.model);
 		}
+}
+
 }
 
 /* if you try to access model data in 
