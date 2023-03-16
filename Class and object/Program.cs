@@ -6,9 +6,9 @@ using System.Collections.Generic;
 
 
 
-namespace HelloWold;
+namespace HelloWold
 
-
+{
 
 public static class Program 
 
@@ -28,7 +28,7 @@ public static class Program
 
 }
 
-
+}
 
 /* if you need to use value in class
 
