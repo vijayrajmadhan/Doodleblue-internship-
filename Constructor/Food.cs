@@ -6,9 +6,9 @@ using System.Collections.Generic;
 
 
 
-namespace Constructor;
+namespace Constructor
 
-
+{
 
 public class Food 
 
@@ -39,4 +39,5 @@ public class Food
 
 	  }
 
+}
 }
