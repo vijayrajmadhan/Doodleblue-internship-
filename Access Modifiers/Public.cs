@@ -2,8 +2,8 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-namespace CSharpShell;
-
+namespace CSharpShell
+{
 class Public
 {         
         public String model="Data";
@@ -17,6 +17,7 @@ class program
 			Public obj=new Public();
 			Console.WriteLine(obj.model);
 		}
+}
 }
 /* in public access modifier you can 
 used the data on the other class also */
