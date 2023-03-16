@@ -6,9 +6,9 @@ using System.Collections.Generic;
 
 
 
-namespace HelloWold;
+namespace HelloWold
 
-
+{
 
 public class Test 
 
@@ -22,4 +22,5 @@ public class Test
 
 	 }
 
+}
 }
