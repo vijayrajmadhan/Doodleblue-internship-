@@ -72,51 +72,51 @@ class arithmetic
                 Console.Write("Enter the "+i+" number :");
                 values[i]=Convert.ToInt32(Console.ReadLine());
             }
-            Console.WriteLine("1.Positive");
-            Console.WriteLine("2.Negative");
-            Console.WriteLine("3.As it is");
-            Console.Write("if output need to be in positive or negative or as it is :");
-            int sub_out_inte=Convert.ToInt32(Console.ReadLine());
-            switch(sub_out_inte)
-            {
-                case 1:
-                {
-                    //changing into assending order
-                    for(int i=0;i<total_number;i++)
-                    {
-                        for(int j=i+1;j<total_number;j++)
-                        {
-                            if(values[i]<values[j])
-                            {
-                                int temp=values[i];
-                                values[i]=values[j];
-                                values[j]=temp;
-                            }
-                        }
-                    }
-                    break;
-                }
-                case 2:
-                {
-                    for(int i=0;i<total_number;i++)
-                    {
-                        for(int j=i+1;j<total_number;j++)
-                        {
-                            if(values[i]>values[j])
-                            {
-                                int temp=values[i];
-                                values[i]=values[j];
-                                values[j]=temp;
-                            }
-                        }
-                    }
-                    break;
-                }
-                case 3:
-                {
-                    break;
-                }
-            }
+            // Console.WriteLine("1.Positive");
+            // Console.WriteLine("2.Negative");
+            // Console.WriteLine("3.As it is");
+            // Console.Write("if output need to be in positive or negative or as it is :");
+            // int sub_out_inte=Convert.ToInt32(Console.ReadLine());
+            // switch(sub_out_inte)
+            // {
+            //     case 1:
+            //     {
+            //         //changing into assending order
+            //         for(int i=0;i<total_number;i++)
+            //         {
+            //             for(int j=i+1;j<total_number;j++)
+            //             {
+            //                 if(values[i]<values[j])
+            //                 {
+            //                     int temp=values[i];
+            //                     values[i]=values[j];
+            //                     values[j]=temp;
+            //                 }
+            //             }
+            //         }
+            //         break;
+            //     }
+            //     case 2:
+            //     {
+            //         for(int i=0;i<total_number;i++)
+            //         {
+            //             for(int j=i+1;j<total_number;j++)
+            //             {
+            //                 if(values[i]>values[j])
+            //                 {
+            //                     int temp=values[i];
+            //                     values[i]=values[j];
+            //                     values[j]=temp;
+            //                 }
+            //             }
+            //         }
+            //         break;
+            //     }
+            //     case 3:
+            //     {
+            //         break;
+            //     }
+            // }
             int sub_out=values[0];
             for(int i=1;i<total_number;i++)
             {
@@ -188,8 +188,6 @@ class arithmetic
     }
 
 }
-
-
 
 
 //it is the console application that i was been implimented till now
