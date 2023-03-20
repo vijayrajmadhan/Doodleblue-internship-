@@ -31,6 +31,9 @@ class arithmetic
     }
     else if(total_number==2)
     {
+        Console.WriteLine("1.ADD");
+        Console.WriteLine("2.SUBRACTION");
+        Console.WriteLine("3.MULTIPLICATION");
         Console.WriteLine("4.DIVISION");    
     }
     else if(total_number==1)
@@ -72,57 +75,68 @@ class arithmetic
                 Console.Write("Enter the "+i+" number :");
                 values[i]=Convert.ToInt32(Console.ReadLine());
             }
-            // Console.WriteLine("1.Positive");
-            // Console.WriteLine("2.Negative");
-            // Console.WriteLine("3.As it is");
-            // Console.Write("if output need to be in positive or negative or as it is :");
-            // int sub_out_inte=Convert.ToInt32(Console.ReadLine());
-            // switch(sub_out_inte)
-            // {
-            //     case 1:
-            //     {
-            //         //changing into assending order
-            //         for(int i=0;i<total_number;i++)
-            //         {
-            //             for(int j=i+1;j<total_number;j++)
-            //             {
-            //                 if(values[i]<values[j])
-            //                 {
-            //                     int temp=values[i];
-            //                     values[i]=values[j];
-            //                     values[j]=temp;
-            //                 }
-            //             }
-            //         }
-            //         break;
-            //     }
-            //     case 2:
-            //     {
-            //         for(int i=0;i<total_number;i++)
-            //         {
-            //             for(int j=i+1;j<total_number;j++)
-            //             {
-            //                 if(values[i]>values[j])
-            //                 {
-            //                     int temp=values[i];
-            //                     values[i]=values[j];
-            //                     values[j]=temp;
-            //                 }
-            //             }
-            //         }
-            //         break;
-            //     }
-            //     case 3:
-            //     {
-            //         break;
-            //     }
-            // }
-            int sub_out=values[0];
-            for(int i=1;i<total_number;i++)
+            
+            Console.WriteLine("1.Positive");
+            Console.WriteLine("2.Negative");
+            Console.WriteLine("3.As it is");
+            Console.Write("if output need to be in positive or negative or as it is :");
+            int sub_out_inte=Convert.ToInt32(Console.ReadLine());
+            switch(sub_out_inte)
             {
-                sub_out-=values[i];
+                case 1:
+                {
+                    //changing into assending order
+                    int sub_out=0;
+                    for(int i=0;i<total_number-1;i++)
+                    {
+                       if(values[i]>values[i+1])
+                       {
+                           values[i+1]=values[i]-values[i+1];
+                       }
+                       else if(values[i+1]>values[i])
+                       {
+                           values[i+1]=values[i+1]-values[i];
+                       }
+                       sub_out=values[i+1];
+                       
+                    }
+                    Console.Write("the output of the subraction numbers :"+sub_out);
+                    break;
+                }
+                
+                case 2:
+                {
+                    //changing into assending order
+                    int sub_out=0;
+                    for(int i=0;i<total_number-1;i++)
+                    {
+                       if(values[i]>values[i+1])
+                       {
+                           values[i+1]=values[i+1]-values[i];
+                       }
+                       else if(values[i+1]>values[i])
+                       {
+                           values[i+1]=values[i]-values[i+1];
+                       }
+                       sub_out=values[i+1];
+                       
+                    }
+                    Console.Write("the output of the subraction numbers :"+sub_out);
+                    break;
+                }
+                
+                case 3:
+                {
+                   int sub_out=values[0];
+                   for(int i=1;i<total_number;i++)
+                   {
+                   sub_out-=values[i];
+                   }
+                   Console.Write("the output of the subraction numbers ="+sub_out);
+                   break;
+                }
+               
             }
-            Console.Write("the output of the subraction numbers ="+sub_out);
             break;
         }
         case 3:
@@ -188,7 +202,3 @@ class arithmetic
     }
 
 }
-
-
-//it is the console application that i was been implimented till now
-//you can add,sub,mul,div,squ the values hear
