@@ -13,7 +13,7 @@ class valone:solve
     }
 }
 
-class main
+class Main
 {
     static void Main(String[] args)
     {
