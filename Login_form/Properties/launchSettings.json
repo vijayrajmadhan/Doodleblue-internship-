@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Login_form": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\DotNet\\Login_form",
+      "sqlDebugging": false,
+      "jsWebView2Debugging": false,
+      "nativeDebugging": false
+    }
+  }
+}
