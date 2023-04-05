@@ -1,0 +1,15 @@
+D:\DotNet\Delegate And Generic\bin\Debug\net6.0\Delegate And Generic.exe
+D:\DotNet\Delegate And Generic\bin\Debug\net6.0\Delegate And Generic.deps.json
+D:\DotNet\Delegate And Generic\bin\Debug\net6.0\Delegate And Generic.runtimeconfig.json
+D:\DotNet\Delegate And Generic\bin\Debug\net6.0\Delegate And Generic.dll
+D:\DotNet\Delegate And Generic\bin\Debug\net6.0\Delegate And Generic.pdb
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\Delegate And Generic.csproj.AssemblyReference.cache
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\Delegate And Generic.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\Delegate And Generic.AssemblyInfoInputs.cache
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\Delegate And Generic.AssemblyInfo.cs
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\Delegate And Generic.csproj.CoreCompileInputs.cache
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\Delegate And Generic.dll
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\refint\Delegate And Generic.dll
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\Delegate And Generic.pdb
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\Delegate And Generic.genruntimeconfig.cache
+D:\DotNet\Delegate And Generic\obj\Debug\net6.0\ref\Delegate And Generic.dll
